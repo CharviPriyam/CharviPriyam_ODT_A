@@ -5,7 +5,7 @@ import neopixel
 
 n=neopixel.NeoPixel(Pin(12),16)
 s=Pin(4,Pin.IN,Pin.PULL_UP)
-i=0
+i=-1
 
 while True:
   s_val=s.value()
