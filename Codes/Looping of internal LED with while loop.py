@@ -1,4 +1,5 @@
 from machine import Pin
+import time
 l=Pin(2,Pin.OUT)
 while True:
   l.on()
