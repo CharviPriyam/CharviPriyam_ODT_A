@@ -1,0 +1,23 @@
+from machine import Pin
+import time
+l=Pin(12,Pin.OUT) 
+x=Pin(14,Pin.OUT) 
+y=Pin(27,Pin.OUT) 
+z=Pin(26,Pin.OUT) 
+while True:
+  l.on()
+  time.sleep(1)
+  l.off()
+  time.sleep(1)
+  x.on()
+  time.sleep(0.75)
+  x.off()
+  time.sleep(0.75)
+  y.on()
+  time.sleep(0.5)
+  y.off()
+  time.sleep(0.5)
+  z.on()
+  time.sleep(0.25)
+  z.off()
+  time.sleep(0.25)
