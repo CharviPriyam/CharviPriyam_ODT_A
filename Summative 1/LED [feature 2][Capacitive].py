@@ -1,4 +1,4 @@
-#capacitive touch to LEDs (3)
+#capacitive touch to LEDs (2)
 from machine import Pin,PWM
 import time
 
